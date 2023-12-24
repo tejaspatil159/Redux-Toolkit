@@ -11,4 +11,7 @@ const unSubscribed = store.subscribe(() => {});
 // store.dispatch(cakeActions.restocked(2));
 // store.dispatch(icecreamActions.ordered());
 // store.dispatch(icecreamActions.restocked(2));
+
 store.dispatch(fetchUsers());
+
+//unSubscribed();
