@@ -1,5 +1,5 @@
 const store = require("./app/store");
-const cakeActions = require("./features/cakeSlice").cakeActions;
+const cakeActions = require("./features/cake/cakeSlice").cakeActions;
 
 console.log(`Initial state`, store.getState());
 const unSubscribed = store.subscribe(() => {
